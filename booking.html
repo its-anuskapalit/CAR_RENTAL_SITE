@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleB.css" />
+</head>
+<body>
+    <nav>
+        <div class="menu">
+          <div class="logo">
+            <a href="#">Car rental site</a>
+          </div>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="signIN.html">LOGIN</a></li>
+            <li><a href="booking.html">BOOKINGS</a></li>
+            <li><a href="">POLULAR LOCATION</li>
+            <li><a href="feedback.html">Feedback</a></li>
+          </ul>
+        </div>
+      </nav>
+    <div class="containerw3layouts-agileits">
+
+        <h2>To reserve the ride, please complete and submit the booking form.</h2>
+
+        <div class="w3layoutscontactagileits">
+            <form action="#" method="post">
+
+                <div class="wthreename agileinfow3ls">
+                    <div class="wthreename-lable wthreelable">
+                        <label>Name</label><span class="colon">:</span>
+                    </div>
+                    <div class="wthreename-input wthreeinput">
+                        <input class="top" type="text" name="Name" placeholder="Name" required="">
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+                <div class="agileemailinfo agileinfow3ls">
+                    <div class="agileemailinfo-lable wthreelable">
+                        <label>Email</label><span class="colon">:</span>
+                    </div>
+                    <div class="agileemailinfo-input wthreeinput">
+                        <input class="top" type="email" name="Email" placeholder="Email" required="">
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+                <div class="aitsphonew3ls agileinfow3ls">
+                    <div class="aitsphonew3ls-lable wthreelable">
+                        <label>Phone</label><span class="colon">:</span>
+                    </div>
+                    <div class="aitsphonew3ls-input wthreeinput">
+                        <label>Area Code</label>
+                        <input class="agilecode" type="tel" pattern="[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}" title="Phone Number (Format: +99(99)9999-9999)" name="Area Code" required="">
+                        <label class="aitsnumber">Number</label>
+                        <input class="wthreeland" type="tel" pattern="[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}" title="Phone Number (Format: +99(99)9999-9999)" name="Number" required="">
+                        <br>
+                        <h3>Or</h3>
+                        <label>Mobile Number</label>
+                        <input class="agileinfomobile" type="tel" pattern="[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}" title="Phone Number (Format: +99(99)9999-9999)" name="Mobile Number" required="">
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+                <div class="agileinfodeparture agileinfow3ls">
+                    <div class="agileinfodeparture-lable wthreelable">
+                        <span class="lable">
+                            <label>Departure</label>
+                            <label>Date/Time</label>
+                        </span>
+                        <span class="colon">:</span>
+                    </div>
+                    <div class="agileinfodeparture-input wthreeinput">
+                        <input class="date agileits w3layouts hasDatepicker" id="datepicker1" type="text" value="Date" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" required="">
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+                <div class="agileinforeturn agileinfow3ls">
+                    <div class="agileinforeturn-lable wthreelable">
+                        <span class="aitsreturn-lable">
+                            <label>Return</label>
+                            <label>Date/Time</label>
+                        </span>
+                        <span class="colon">:</span>
+                    </div>
+                    <div class="agileinforeturn-input wthreeinput">
+                        <input class="date agileits w3layouts hasDatepicker" id="datepicker2" type="text" value="Date" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" required="">
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+                <div class="aitspickupaddress agileinfow3ls">
+                    <div class="aitspickupaddress-lable wthreelable">
+                        <span class="agilepickup-lable">
+                            <label>Pickup</label>
+                            <label>Address</label>
+                        </span>
+                        <span class="colon">:</span>
+                    </div>
+                    <div class="aitspickupaddress-input wthreeinput">
+                        <textarea name="Pickup Address" placeholder="Pickup Address" required=""></textarea>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+                <div class="aitsdestinationaddress agileinfow3ls">
+                    <div class="aitsdestinationaddress-lable wthreelable">
+                        <span class="agiledest-lable">
+                            <label>Destination</label>
+                            <label>Address</label>
+                        </span>
+                        <span class="colon">:</span>
+                    </div>
+                    <div class="aitsdestinationaddress-input wthreeinput">
+                        <textarea name="Destination Address" placeholder="Destination Address" required=""></textarea>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+                <div class="w3lsjourneyaits agileinfow3ls">
+                    <div class="w3lsjourneyaits-lable wthreelable">
+                        <span class="aitsjourney-lable">
+                            <label>Journey</label>
+                            <label>Type</label>
+                        </span>
+                        <span class="colon">:</span>
+                    </div>
+                    <div class="w3lsjourneyaits-input wthreeinput">
+                        <select name="journey">
+                            <option value="single">Single</option>
+                            <option value="two way">Two Way</option>
+                        </select>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+                <div class="aitssubmitw3ls">
+                    <input type="submit" name="submit" value="SUBMIT">
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>

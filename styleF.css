@@ -1,0 +1,118 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Open-Sans', sans-serif;
+    letter-spacing: 0.6px;
+    color: #fbfbfc;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url(car4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    background:linear-gradient(135deg, #474c62, #383c4d);;
+    border-radius: 12px;
+    box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+}
+
+.card-header,
+.card-footer {
+    background: linear-gradient(135deg, #3c4256, #313747);
+    text-align: center;
+    padding: 24px 32px;
+}
+
+.card-header {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.card-footer a {
+    text-decoration: none;
+    color: #d1d1d1;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 64px;
+}
+
+.stars {
+    margin-bottom: 40px;
+}
+
+.stars i {
+    font-size: 2.6em;
+    margin: 8px;
+    cursor: pointer;
+    color: #292f3d;
+    transition: color 0.5s;
+}
+
+.card.one .stars i:nth-child(-n+1) {
+    color: #ffcf87;
+}
+
+.card.two .stars i:nth-child(-n+2) {
+    color: #ffcf87;
+}
+
+.card.three .stars i:nth-child(-n+3) {
+    color: #ffcf87;
+}
+
+.card.four .stars i:nth-child(-n+4) {
+    color: #ffcf87;
+}
+
+.card.five .stars i:nth-child(-n+5) {
+    color: #ffcf87;
+}
+
+textarea {
+    width: 100%;
+    background-color: #323747;
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+    resize: none;
+    font-size: 1.4em;
+    outline: none;
+}
+
+button.cta {
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    padding: 16px;
+    margin-top: 32px;
+    background: #21d4fd;
+    background-size: 300% 100%;
+    font-size: 1.4em;
+    transition: background-position 0.7s;
+}
+
+button.cta:hover {
+    background-position: 100% 0;
+}
+
+.credit a{
+    text-decoration: none;
+    color: #21D4FD;
+  }
+
